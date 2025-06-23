@@ -95,7 +95,7 @@ export const Footer = ({ pages }: { pages: string[] }) => {
         <img
           src="/BMWE2025_NextGenEU.svg"
           alt="BMWE 2025"
-          style={{ width: '200px' }}
+          style={{ width: '250px' }}
         />
         <Navigation unstyled items={items} component={NavLink} />
         <span className="copyright">{`${t('content.footer.copyright')}`}</span>
