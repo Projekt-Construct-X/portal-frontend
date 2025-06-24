@@ -97,12 +97,10 @@ export default function WalletCard({
           <div className="icon-text">
             <div className="icon">
               <img
-                src="/construct-x-logo.png"
-                alt="cx logo"
-                style={{
-                  width: 90,
-                  height: 70,
-                }}
+                id="wallet-logo"
+                src="/public/construct-x-logo-transparent.svg"
+                alt="tx logo"
+                style={{ display: 'inline', width: '100px', height: '80px' }}
               />
             </div>
             <Typography variant="body2">{type}</Typography>

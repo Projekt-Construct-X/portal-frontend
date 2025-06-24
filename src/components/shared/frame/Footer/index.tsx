@@ -87,15 +87,17 @@ export const Footer = ({ pages }: { pages: string[] }) => {
     <footer style={{ background: getPreferredColor() }}>
       {showScrollToTop && <ScrollToTopButton onButtonClick={scrollToTop} />}
       <img
+        id="footer-head"
         className="footer-head"
         src="/orange-background-head.svg"
         alt="orange background"
       />
       <div className="footer-content">
         <img
-          src="/BMWE2025_NextGenEU.svg"
-          alt="BMWE 2025"
-          style={{ width: '250px' }}
+          id="footer-logo"
+          src="/public/BMWE2025_NextGenEU.svg"
+          alt="BMWE 2025 Next Gen EU"
+          style={{ display: 'inline', width: '350px' }}
         />
         <Navigation unstyled items={items} component={NavLink} />
         <span className="copyright">{`${t('content.footer.copyright')}`}</span>
