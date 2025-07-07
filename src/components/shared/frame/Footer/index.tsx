@@ -95,7 +95,7 @@ export const Footer = ({ pages }: { pages: string[] }) => {
       <div className="footer-content">
         <img
           id="footer-logo"
-          src="/public/BMWE2025_NextGenEU.svg"
+          src="/BMWE2025_NextGenEU.svg"
           alt="BMWE 2025 Next Gen EU"
           style={{ display: 'inline', width: '350px' }}
         />

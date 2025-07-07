@@ -78,7 +78,7 @@ export const Header = ({
 
   // Due to the dynamic class 'css-429xfk', overwrite the logo container padding //
   useEffect(() => {
-    const el = document.querySelector('.css-429xfk')!
+    const el = document.querySelector<HTMLElement>('.css-429xfk')!
     if (el) {
       el.style.paddingTop = '0px'
       el.style.paddingBottom = '0px'
