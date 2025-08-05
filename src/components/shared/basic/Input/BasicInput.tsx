@@ -18,7 +18,10 @@
  * SPDX-License-Identifier: Apache-2.0
  ********************************************************************************/
 
-import { Tooltips, Typography } from '@catena-x/portal-shared-components'
+import {
+  Tooltips,
+  Typography,
+} from '@arena2036/portal-shared-components-construct-x'
 import { useEffect, useRef, useState } from 'react'
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline'
 import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline'

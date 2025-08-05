@@ -19,7 +19,7 @@
  ********************************************************************************/
 
 import type { GridColDef } from '@mui/x-data-grid'
-import { IconButton } from '@catena-x/portal-shared-components'
+import { IconButton } from '@arena2036/portal-shared-components-construct-x'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import type { BusinessPartner } from 'features/newPartnerNetwork/types'
 import { OVERLAYS } from 'types/Constants'

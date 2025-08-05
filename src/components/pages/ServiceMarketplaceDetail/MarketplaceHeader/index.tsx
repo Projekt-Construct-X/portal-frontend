@@ -19,7 +19,10 @@
  ********************************************************************************/
 
 import { useDispatch } from 'react-redux'
-import { Button, Typography } from '@catena-x/portal-shared-components'
+import {
+  Button,
+  Typography,
+} from '@arena2036/portal-shared-components-construct-x'
 import { useTranslation } from 'react-i18next'
 import { useParams } from 'react-router-dom'
 import type { ServiceRequest } from 'features/serviceMarketplace/serviceApiSlice'

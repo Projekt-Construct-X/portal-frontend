@@ -18,7 +18,10 @@
  * SPDX-License-Identifier: Apache-2.0
  ********************************************************************************/
 
-import { IconButton, Typography } from '@catena-x/portal-shared-components'
+import {
+  IconButton,
+  Typography,
+} from '@arena2036/portal-shared-components-construct-x'
 import type { GridColDef } from '@mui/x-data-grid'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import dayjs from 'dayjs'

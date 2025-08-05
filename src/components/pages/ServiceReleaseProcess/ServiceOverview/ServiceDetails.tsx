@@ -23,7 +23,7 @@ import {
   Typography,
   CardHorizontal,
   StaticTable,
-} from '@catena-x/portal-shared-components'
+} from '@arena2036/portal-shared-components-construct-x'
 import '../ServiceReleaseProcessForm/style.scss'
 import 'components/styles/document.scss'
 import {

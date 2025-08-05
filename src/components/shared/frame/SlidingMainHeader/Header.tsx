@@ -19,7 +19,10 @@
 
 import { Box } from '@mui/material'
 import './style.scss'
-import { Button, Typography } from '@catena-x/portal-shared-components'
+import {
+  Button,
+  Typography,
+} from '@arena2036/portal-shared-components-construct-x'
 
 export interface HeaderProps {
   title?: string

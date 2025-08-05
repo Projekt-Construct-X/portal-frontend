@@ -23,7 +23,7 @@ import {
   Typography,
   Button,
   ProcessList,
-} from '@catena-x/portal-shared-components'
+} from '@arena2036/portal-shared-components-construct-x'
 import { Box } from '@mui/material'
 import './style.scss'
 
