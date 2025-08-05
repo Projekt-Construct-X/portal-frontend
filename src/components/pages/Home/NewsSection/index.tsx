@@ -31,7 +31,7 @@ export default function NewsSection() {
         items={items}
         columns={3}
         buttonText="Details"
-        imageSize="large"
+        imageSize="normal"
         imageShape="round"
         variant="text-only"
       />
