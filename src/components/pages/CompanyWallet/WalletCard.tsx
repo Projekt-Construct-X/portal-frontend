@@ -98,7 +98,7 @@ export default function WalletCard({
             <div className="icon">
               <img
                 id="wallet-logo"
-                src="/public/construct-x-logo-transparent.svg"
+                src="/construct-x-logo-transparent.svg"
                 alt="Construct-X Logo"
                 style={{ display: 'inline', width: '100px', height: '80px' }}
               />
