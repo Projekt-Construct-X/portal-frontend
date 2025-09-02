@@ -89,8 +89,8 @@ export const Footer = ({ pages }: { pages: string[] }) => {
       <img
         id="footer-head"
         className="footer-head"
-        src="/orange-background-head.svg"
-        alt="orange background"
+        //src="/orange-background-head.jpg"
+        //alt="orange background"
       />
       <div className="footer-content">
         <img

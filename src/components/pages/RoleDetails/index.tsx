@@ -64,7 +64,7 @@ export default function RoleDetails() {
         <div className="heading">
           <Typography
             sx={{
-              fontFamily: 'LibreFranklin-Light',
+              fontFamily: 'Montserrat-Light',
               marginBottom: '40px !important',
               maxWidth: '30%',
               margin: '0 auto',

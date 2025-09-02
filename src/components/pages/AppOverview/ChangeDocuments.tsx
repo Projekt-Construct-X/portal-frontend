@@ -19,7 +19,7 @@
 
 import {
   Typography,
-  PageHeader,
+  PageHeader2,
   Button,
   IconButton,
   DialogHeader,
@@ -230,7 +230,7 @@ export default function ChangeDocuments() {
 
   return (
     <main className="deactivate-main">
-      <PageHeader title={app?.[0]?.title} topPage={true} headerHeight={200} />
+      <PageHeader2 title={app?.[0]?.title} topPage={true} headerHeight={200} />
 
       <section>
         <Typography mb={3} align="center" variant="body2">

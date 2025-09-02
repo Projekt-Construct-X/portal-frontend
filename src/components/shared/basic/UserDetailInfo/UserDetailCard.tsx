@@ -195,7 +195,7 @@ export const UserDetailCard = ({
               borderBottom: '1px solid',
               borderColor: 'rgb(220, 220, 220)',
               color: 'rgb(136, 136, 136)',
-              fontFamily: 'LibreFranklin-Light',
+              fontFamily: 'Montserrat-Light',
               padding: k === 'status' ? '14.5px 20px' : '20px',
               fontSize: '14px',
             }}

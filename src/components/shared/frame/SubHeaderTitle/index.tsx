@@ -36,7 +36,7 @@ export default function SubHeaderTitle({
 
   return (
     <Typography
-      sx={{ fontFamily: 'LibreFranklin-Light' }}
+      sx={{ fontFamily: 'Montserrat-Light' }}
       variant={variant}
       className="section-title"
     >

@@ -56,8 +56,7 @@ export type BasicInputProps = {
 }
 
 const BasicInputStyle = {
-  fontFamily:
-    'LibreFranklin-Light, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+  fontFamily: 'Montserrat-Light',
   width: '100%',
   fontSize: '16px',
   borderLeft: 0,

@@ -19,7 +19,7 @@
  ********************************************************************************/
 
 import {
-  PageHeader,
+  PageHeader2,
   Typography,
   CardHorizontal,
   StaticTable,
@@ -103,7 +103,7 @@ export default function ServiceDetails() {
   return (
     <main>
       <div>
-        <PageHeader
+        <PageHeader2
           title={t('servicedetails.headerTitle')}
           topPage={true}
           headerHeight={200}

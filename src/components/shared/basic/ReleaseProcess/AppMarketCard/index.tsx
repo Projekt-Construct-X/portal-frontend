@@ -767,7 +767,7 @@ export default function AppMarketCard() {
 
             <div className="form-field">
               <Typography
-                sx={{ fontFamily: 'LibreFranklin-Medium' }}
+                sx={{ fontFamily: 'Montserrat-Light' }}
                 variant="subtitle2"
               >
                 {t('content.apprelease.appMarketCard.salesManager')}

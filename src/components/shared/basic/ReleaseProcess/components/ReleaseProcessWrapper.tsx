@@ -118,7 +118,7 @@ export default function ReleaseProcessWrapper({
           headerHeight={731}
           subTitleWidth={500}
           background="LinearGradient1"
-          imagePath={imagePath}
+          imagePath="/orange-background-full.jpg"
         >
           <Typography variant="body1" sx={{ mt: 2 }}>
             {headerDescription}

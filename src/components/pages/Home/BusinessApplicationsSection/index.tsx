@@ -82,7 +82,7 @@ export default function BusinessApplicationsSection() {
       <section className="business-applications-section">
         <Typography
           sx={{
-            fontFamily: 'LibreFranklin-Light',
+            fontFamily: 'Montserrat-Light',
             marginBottom: '48px !important',
           }}
           variant="h2"

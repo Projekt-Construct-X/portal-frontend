@@ -17,7 +17,7 @@
  * SPDX-License-Identifier: Apache-2.0
  ********************************************************************************/
 
-import { Box } from '@mui/material'
+import { Box, type SxProps } from '@mui/material'
 import './style.scss'
 import {
   Button,
@@ -29,12 +29,14 @@ export interface HeaderProps {
   subTitle?: string
   subTitleWidth?: number
   headerHeight?: number
+  marginTop?: number
   imagePath?: string
   titleTextVariant?: 'h1' | 'h2' | 'h3'
   subTitleTextVariant?: 'h1' | 'h2' | 'h3'
   buttonText?: string
   handleClick: () => void
   hasAccess?: boolean
+  sx?: SxProps
 }
 
 //TO-DO - Move this component to cx-shared repo after the yarn upgrade
@@ -42,21 +44,26 @@ export const Header = ({
   title,
   subTitle,
   subTitleWidth,
-  headerHeight = 645,
+
+  //headerHeight = 645,
   imagePath,
   titleTextVariant = 'h1',
   subTitleTextVariant = 'h2',
   buttonText,
   handleClick,
   hasAccess,
+  sx = {},
 }: HeaderProps) => {
   return (
     <Box
       sx={{
-        width: '100%',
-        height: `${headerHeight}px`,
-        marginTop: '-85px',
-        position: 'relative',
+        '&.css-7agmcy': {
+          width: '100%',
+          height: '200px',
+          marginTop: '12px',
+          position: 'relative',
+        },
+        ...sx,
       }}
     >
       {imagePath && (
@@ -81,7 +88,7 @@ export const Header = ({
               <Typography
                 className="subtitle"
                 sx={{
-                  fontFamily: 'LibreFranklin-Light',
+                  fontFamily: 'Montserrat-Light',
                   width: `${subTitleWidth}px`,
                 }}
                 variant={subTitleTextVariant}

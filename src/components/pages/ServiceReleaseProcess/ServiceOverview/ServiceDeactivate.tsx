@@ -19,7 +19,7 @@
 
 import {
   Typography,
-  PageHeader,
+  PageHeader2,
   Card,
   Checkbox,
   Button,
@@ -71,7 +71,7 @@ export default function ServiceDeactivate() {
 
   return (
     <main className="deactivate-main">
-      <PageHeader
+      <PageHeader2
         title={service?.[0]?.title}
         topPage={true}
         headerHeight={200}

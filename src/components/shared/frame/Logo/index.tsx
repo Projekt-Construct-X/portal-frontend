@@ -26,7 +26,7 @@ export const Logo = () => (
   <NavLink to="/">
     <Image
       src={`${getAssetBase()}/images/logos/construct-x-logo.svg`}
-      style={{ width: '135px', height: '80px', marginLeft: '50px' }}
+      style={{ width: '125px', height: '80px', marginLeft: '50px' }}
     />
   </NavLink>
 )

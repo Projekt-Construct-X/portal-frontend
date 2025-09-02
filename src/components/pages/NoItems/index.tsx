@@ -28,10 +28,7 @@ export default function NoItems() {
         mb={2}
         variant="h3"
         align="center"
-        sx={{
-          fontFamily:
-            '"LibreFranklin", "Libre Franklin", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important',
-        }}
+        sx={{ fontFamily: 'Montserrat-Light' }}
       >
         {t('global.noData.heading')}
       </Typography>
